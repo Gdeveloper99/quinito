@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
+import React, { Component } from 'react';
+import Menu from './Menu';
 import './App.css';
+import Dado from './Dado';
+const initialState={
+  ruta:'home'
+}
+class App extends Component {
+  constructor() {
+    super();
+    this.state = initialState;
+  }
+ cambioDeRuta=(ruta)=>{
+  this.setState({ruta: ruta})
+ }
+  render() {
+    return (
+      <div className='App'>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+        {this.state.ruta==='home'
+          ?<Menu cambioDeRuta={this.cambioDeRuta} />
+          : <Dado />
+        }
+           
+      </div>
+    );
+  }
+  
 }
 
 export default App;
