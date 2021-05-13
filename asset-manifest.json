@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/quinito/static/css/main.5940a98f.chunk.css",
+    "main.js": "/quinito/static/js/main.bd3af0cc.chunk.js",
+    "main.js.map": "/quinito/static/js/main.bd3af0cc.chunk.js.map",
+    "runtime-main.js": "/quinito/static/js/runtime-main.c85e1d1a.js",
+    "runtime-main.js.map": "/quinito/static/js/runtime-main.c85e1d1a.js.map",
+    "static/css/2.c1f4f5f4.chunk.css": "/quinito/static/css/2.c1f4f5f4.chunk.css",
+    "static/js/2.4be9ce65.chunk.js": "/quinito/static/js/2.4be9ce65.chunk.js",
+    "static/js/2.4be9ce65.chunk.js.map": "/quinito/static/js/2.4be9ce65.chunk.js.map",
+    "static/js/3.86b7596f.chunk.js": "/quinito/static/js/3.86b7596f.chunk.js",
+    "static/js/3.86b7596f.chunk.js.map": "/quinito/static/js/3.86b7596f.chunk.js.map",
+    "index.html": "/quinito/index.html",
+    "static/css/2.c1f4f5f4.chunk.css.map": "/quinito/static/css/2.c1f4f5f4.chunk.css.map",
+    "static/css/main.5940a98f.chunk.css.map": "/quinito/static/css/main.5940a98f.chunk.css.map",
+    "static/js/2.4be9ce65.chunk.js.LICENSE.txt": "/quinito/static/js/2.4be9ce65.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c85e1d1a.js",
+    "static/css/2.c1f4f5f4.chunk.css",
+    "static/js/2.4be9ce65.chunk.js",
+    "static/css/main.5940a98f.chunk.css",
+    "static/js/main.bd3af0cc.chunk.js"
+  ]
+}
